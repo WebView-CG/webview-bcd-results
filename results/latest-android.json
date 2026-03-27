@@ -1,30 +1,22 @@
 {
-  "timestamp": "2026-03-27T16:10:57.272Z",
+  "timestamp": "2026-03-27T16:12:55.666Z",
   "platform": "android",
   "webviewVersion": "unknown",
-  "osVersion": "13",
+  "osVersion": "10",
   "deviceModel": "unknown Android SDK built for x86_64",
   "testUrl": "https://collector.openwebdocs.org/",
   "results": {
-    "page-load": {
-      "status": "passed",
-      "duration": 13943,
-      "data": {
-        "title": "mdn-bcd-collector",
-        "url": "https://collector.openwebdocs.org/"
-      }
-    },
     "feature-collection": {
       "status": "passed",
-      "duration": 15158,
+      "duration": 15337,
       "data": {
-        "userAgent": "Mozilla/5.0 (Linux; Android 13; Android SDK built for x86_64 Build/TE1A.220922.034; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.61 Mobile Safari/537.36",
+        "userAgent": "Mozilla/5.0 (Linux; Android 10; Android SDK built for x86_64 Build/QSR1.210820.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.185 Mobile Safari/537.36",
         "features": {}
       }
     },
     "javascript-features": {
       "status": "passed",
-      "duration": 138,
+      "duration": 208,
       "data": {
         "localStorage": true,
         "sessionStorage": true,
