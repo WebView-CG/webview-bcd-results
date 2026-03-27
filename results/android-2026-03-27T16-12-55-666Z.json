@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-27T16:12:55.666Z",
+  "platform": "android",
+  "webviewVersion": "unknown",
+  "osVersion": "10",
+  "deviceModel": "unknown Android SDK built for x86_64",
+  "testUrl": "https://collector.openwebdocs.org/",
+  "results": {
+    "feature-collection": {
+      "status": "passed",
+      "duration": 15337,
+      "data": {
+        "userAgent": "Mozilla/5.0 (Linux; Android 10; Android SDK built for x86_64 Build/QSR1.210820.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.185 Mobile Safari/537.36",
+        "features": {}
+      }
+    },
+    "javascript-features": {
+      "status": "passed",
+      "duration": 208,
+      "data": {
+        "localStorage": true,
+        "sessionStorage": true,
+        "indexedDB": true,
+        "fetch": true,
+        "promise": true,
+        "asyncAwait": true,
+        "serviceWorker": true,
+        "webgl": true
+      }
+    }
+  },
+  "metadata": {}
+}
