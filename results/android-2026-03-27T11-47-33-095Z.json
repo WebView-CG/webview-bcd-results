@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-03-27T11:47:33.095Z",
+  "platform": "android",
+  "webviewVersion": "unknown",
+  "osVersion": "10",
+  "deviceModel": "unknown Android SDK built for x86_64",
+  "testUrl": "https://collector.openwebdocs.org/",
+  "results": {
+    "javascript-features": {
+      "status": "failed",
+      "duration": 19,
+      "error": "No WebView debugging sockets found on device emulator-5554.\nThis usually means:\n1. The app is not running\n2. The app doesn't have WebView.setWebContentsDebuggingEnabled(true)\n3. No WebView has been loaded yet\n\nTo fix: Add this to your app's MainActivity onCreate():\n  if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {\n    WebView.setWebContentsDebuggingEnabled(true)\n  }"
+    }
+  },
+  "metadata": {}
+}
